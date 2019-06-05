@@ -21,7 +21,7 @@ echo -n "800000" > /sys/devices/system/cpu/cpufreq/policy4/scaling_min_freq
 echo -n "4000000" > /sys/devices/system/cpu/cpufreq/policy0/scaling_max_freq
 echo -n "4000000" > /sys/devices/system/cpu/cpufreq/policy4/scaling_max_freq
 
-echo "done"
+echo "frequencies reset"
 EOF
 isempty=`cat /etc/default/grub | grep "intel_pstate=disable"`
 if [ -n "$isempty" ];
