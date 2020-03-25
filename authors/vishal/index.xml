@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CAR3S Group</title>
+    <link>https://Anish-Saxena.github.io/car3s/authors/vishal/</link>
+      <atom:link href="https://Anish-Saxena.github.io/car3s/authors/vishal/index.xml" rel="self" type="application/rss+xml" />
+    <description>CAR3S Group</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 23 Mar 2020 16:12:43 +0530</lastBuildDate>
+    <image>
+      <url>https://Anish-Saxena.github.io/car3s/img/cars_logo.jpeg</url>
+      <title>CAR3S Group</title>
+      <link>https://Anish-Saxena.github.io/car3s/authors/vishal/</link>
+    </image>
+    
+    <item>
+      <title>Breaking the Memory Wall with Near-Core Optimizations</title>
+      <link>https://Anish-Saxena.github.io/car3s/project/memory_wall_intel/</link>
+      <pubDate>Mon, 23 Mar 2020 16:12:43 +0530</pubDate>
+      <guid>https://Anish-Saxena.github.io/car3s/project/memory_wall_intel/</guid>
+      <description>&lt;p&gt;The project aims to improve performance by building small structures near the core.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The first task is to implement a light-weight instruction prefetcher, as state of the art instruction prefetchers require around 200-300KB of storage.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The second task is to implement a L2 prefetcher which can work synergistically with high-performant and light-weight L1 prefetchers. Living in a world of abstraction, all addresses require translation and the need increases when going to deeper level like virtualized sytem.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The third task requires to create a prefetcher for multi-level TLB and PTW. Moving into multi-core era, these prefetchers will compete for shared resources.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The final task is to throttle down these prefetchers in many core system and utilize the availabe bandwidth effectively to improve performance of the overall system.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This project has been sponsored by Intel labs through 
+&lt;a href=&#34;https://Anish-Saxena.github.io/car3s/https://src.org/&#34;&gt;SRC&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
